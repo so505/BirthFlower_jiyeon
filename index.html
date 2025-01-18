@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탄생화</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <script src="./script/index.js" defer></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="wrap">
+            <h1>나만의 탄생화를 찾아보세요!</h1>
+            <div class="container">
+                <div class="year">
+                    <label for="year"></label>
+                    <input type="text" name="year" id="year" maxlength="4" placeholder="৹৹৹৹ 년">
+                </div>
+                <div class="month">
+                    <label for="month"></label>
+                    <input type="text" name="month" id="month" maxlength="2"placeholder="৹৹ 월">
+                </div>
+                <div class="day">
+                    <label for="day"></label>
+                    <input type="text" name="day" id="day" maxlength="2"placeholder="৹৹ 일">
+                </div>
+            </div>
+            <button type="button" id="resultBtn" onclick="fn_result();">결과 보기</button>
+        </div>
+        <!-- 결과 창  -->
+        <div class="sub">
+            <div class="sub_card">
+                <img src="./images/image.jpg" alt="꽃 이미지카드">
+                <h2 class="name">꽃이름</h2>
+                <p class="info">정보</p>
+            </div>
+            <div class="sub_btn">
+                <button type="button" id="saveCard"><img src="./images/download.png"alt=카드저장>카드 저장</button>
+                <button type="button" id="resetForm"><img src="./images/restart_alt.png" alt="다시입력하기"> 다시 입력하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

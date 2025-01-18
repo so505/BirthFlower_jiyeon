@@ -1,0 +1,73 @@
+.bg {
+    background-image: url(../images/fbg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1920px; height: 1280px; margin: 0 auto;
+    position: relative;
+    
+}
+.bg .wrap {
+    width: 430px; height: 520px;
+    margin: 0 auto;
+    position: absolute; right: 267px;top: 359px;
+    text-align: center;
+}
+.bg .wrap h1 {text-align: center;
+    margin-top: 280px;
+    font-size: 1.25rem; color: #fff; font-weight: 700;
+    margin-bottom: 30px;
+}
+.bg .wrap .container {display: flex; flex-flow: row nowrap;justify-content: center; margin-bottom: 50px; }
+.bg .wrap .container .year{margin-right: 16px;}
+.bg .wrap .container .year #year {
+    background-color: #C7DAD3; padding: 5px;width: 107px; 
+    border-radius: 25px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); text-align: center;
+}
+.bg .wrap .container .year #year::placeholder {
+    text-align: right; color: #fff;
+    font-size: 1.13rem; font-weight: 700;
+}
+.bg .wrap .container .month {margin-right: 16px;}
+.bg .wrap .container .month #month {background-color: #C7DAD3; padding: 5px;width: 107px;
+    border-radius: 25px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);text-align: center;}
+.bg .wrap .container .month #month::placeholder {text-align: right; color: #fff;
+    font-size: 1.13rem; font-weight: 700;}
+.bg .wrap .container .day {}
+.bg .wrap .container .day #day {background-color: #C7DAD3; padding: 5px;width: 107px;
+    border-radius: 25px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);text-align: center;}
+.bg .wrap .container .day #day::placeholder {text-align: right; color: #fff;
+    font-size: 1.13rem; font-weight: 700;}
+.bg .wrap #resultBtn {
+    background-color: #C7DAD3;padding: 10px 139px;
+    color: #fff; border-radius: 25px;
+    font-size: 1.13rem; font-weight: 700;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+ }
+ .bg .wrap #resultBtn:hover {transform: scale(0.95);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+ }
+
+/* 결과 창*/
+
+.bg .sub {
+    display: none;
+    background-color: #fff;
+    width: 346px; height: 450px; margin: 0 auto;
+    position: absolute; right: 309px; top: 359px;
+    border-radius: 10px; padding-top:34px ; 
+}
+.bg .sub .sub_card {width: 100%; margin: 0 auto; display: inline-block; text-align: center;}
+.bg .sub .sub_card > img {width: 227px;height: 257px; 
+     margin-bottom: 23px;}
+.bg .sub .sub_card .name {margin-bottom: 5px; font-size: 0.94rem; font-weight: 500;line-height: 20px;}
+.bg .sub .sub_card .info {margin-bottom: 29px;font-size: 0.94rem; font-weight: 500;line-height: 20px;}
+.bg .sub .sub_btn {
+    background-color:#FBFED6; padding: 16px;width: 100%px; margin: 0 auto;
+   display: flex;justify-content: space-between; 
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px; 
+}
+.bg .sub .sub_card .sub_btn #saveCard {}
+.bg .sub .sub_card .sub_btn #saveCard img {}
+.bg .sub .sub_card .sub_btn #resetForm {}
+.bg .sub .sub_card .sub_btn #resetForm img {}
